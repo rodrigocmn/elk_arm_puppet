@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "existingVirtualNetworkName": {
+      "value": "IE1-ELK-VNET-R1"
+    },
+    "existingVirtualNetworkResourceGroup": {
+      "value": "IE1-ELK-R1-RG-01"
+    },
+    "subnetName": {
+      "value": "IE1-ELK-VNET-R1-SUB-01"
+    },
+    "osDiskVhdUri": {
+      "value": "GEN-SPECIALIZED-WINVHD-URI"
+    },
+    "vmName": {
+      "value": "genunique8"
+    },
+    "osType": {
+      "value": "Linux"
+    },
+    "vmSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "adminUsername": {
+      "value": "adminuser"
+    },
+    "adminPassword": {
+      "value": "n76Qfsi6plLfN5"
+    }
+  }
+}

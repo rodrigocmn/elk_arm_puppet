@@ -1,0 +1,6 @@
+# IntelliJ metadata
+.idea
+
+# MacOs filesystem metadata
+.DS_Store
+
